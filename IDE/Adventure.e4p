@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-4.6.dtd">
+<!-- eric4 project file for project Adventure -->
+<!-- Saved: 2014-06-20, 00:50:53 -->
+<!-- Copyright (C) 2014 Gowtham Rangarajan  R, rangnewton@gmail.com;gowthamrangarajan@gmail.com -->
+<Project version="4.6">
+  <Language>en</Language>
+  <ProgLanguage mixed="0">Python</ProgLanguage>
+  <ProjectType>Other</ProjectType>
+  <Description></Description>
+  <Version>0.1</Version>
+  <Author>Gowtham Rangarajan  R</Author>
+  <Email>rangnewton@gmail.com;gowthamrangarajan@gmail.com</Email>
+  <Sources>
+    <Source>__init__.py</Source>
+    <Source>gameconfig.py</Source>
+    <Source>FlyingObjects.py</Source>
+    <Source>constants.py</Source>
+    <Source>Background.py</Source>
+    <Source>platforms.py</Source>
+    <Source>Enemies.py</Source>
+    <Source>main.py</Source>
+    <Source>levels.py</Source>
+    <Source>Stats.py</Source>
+    <Source>Collectibles.py</Source>
+    <Source>loadable.py</Source>
+    <Source>player.py</Source>
+    <Source>spritesheet_functions.py</Source>
+  </Sources>
+  <Forms>
+  </Forms>
+  <Translations>
+  </Translations>
+  <Resources>
+  </Resources>
+  <Interfaces>
+  </Interfaces>
+  <Others>
+  </Others>
+  <MainScript>/home/poochi/Desktop/PyGame/MyGame_bck/Src/main.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES" />
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES" />
+    <FiletypeAssociation pattern="*.py" type="SOURCES" />
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES" />
+  </FiletypeAssociations>
+</Project>

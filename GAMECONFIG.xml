@@ -1,0 +1,56 @@
+<!-- No comments -->
+<sprites>
+	
+        <BACKGOUND_PATH_LIST name="buildings_list">
+	<buildings_list priority="1" path="['background_01.png']"></buildings_list>	
+	</BACKGOUND_PATH_LIST>
+
+        <fly name="fl" >
+	<fl posx="600" posy="320" > </fl>
+	</fly>
+
+
+	
+
+
+	<FlyingObject name="Blue" >
+	<Blue posx="20" posy="30" > </Blue>
+	</FlyingObject>
+	
+	<Immovableplatforms name="im">
+	<im name="GRASS_LEFT" posx="500" posy="500" ></im>
+	<im name="GRASS_MIDDLE" posx="570" posy="500" ></im>
+	<im name="GRASS_RIGHT" posx="640" posy="500" ></im>
+	<im name="GRASS_RIGHT" posx="940" posy="400" ></im>
+	<im name="GRASS_MIDDLE" posx="800" posy="400" ></im>
+	</Immovableplatforms>
+
+	
+	
+	<Movableplatforms name="m">
+	<m name="STONE_PLATFORM_MIDDLE" boundary_left="1350" boundary_right="1600" change_x="1" posx="1350" posy="280"></m>
+
+	</Movableplatforms>
+
+        <collectible name="GOLD" >
+	<GOLD   posx="500" posy="375" ></GOLD>
+        <GOLD   posx="610" posy="210" ></GOLD>
+        <GOLD   posx="1048" posy="200" ></GOLD>        
+        <GOLD   posx="1500" posy="250" ></GOLD>
+        <GOLD   posx="1200" posy="300" ></GOLD>
+        <GOLD   posx="1100" posy="500" ></GOLD>
+        <GOLD   posx="3000" posy="500" ></GOLD>
+       
+	</collectible >
+
+
+	<collectible name="SILVER"   >
+	 <SILVER  posx="830" posy="425" ></SILVER>
+	<SILVER  posx="1098" posy="250" ></SILVER>
+       
+	</collectible >
+
+    
+</sprites>
+
+
